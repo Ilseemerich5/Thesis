@@ -12,10 +12,10 @@ This repository includes the main scripts used for:
 
 1. Sentiment analysis (BERT-based classification)
 - A BERT-based model (BERTimbau) was used to classify customer reviews into sentiment categories.
-- The output sentiment scores were aggregated and used as external features in the forecasting models.
+The output sentiment scores were aggregated and used as external features in the forecasting models.
 
 2. Sales forecasting models
-- A hybrid forecasting architecture combining:
+A hybrid forecasting architecture combining:
 - Attention-based Bidirectional LSTM (AttBiLSTM) for temporal sequence learning
 - XGBoost for residual correction and error refinement
 - Multiple experiments were run using different look-back windows (lag 1, 7, 14, 30, 60) and forecasting horizons.
