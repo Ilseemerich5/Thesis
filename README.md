@@ -35,7 +35,6 @@ Data:
 The repository includes:
 - The Olist e-commerce dataset (raw data) used for training and evaluation
 
-Olist is a Brazilian e-commerce dataset containing real transaction data, product information, and customer reviews.
 
 Survey data:
 
